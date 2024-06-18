@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+}
+.head,.str{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(247, 219, 183);
+    align-items: center;
+    height: 8vh;
+    flex-wrap: wrap;
+}
+.str{
+    font-weight: bold;
+    font-size: larger;
+}
+.bdy{
+    display: flex;
+    margin-left: 6vw;
+    width: 90vw;
+    height: 89vh;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+}
+.bdy h3{
+    padding-top: 10vh;
+    color: brown;
+}
+.bdy h1{
+    font-size: 3rem;
+}
+.img{
+    display: flex;
+    width: 50vw;
+    margin-top: 5vh;
+    align-items: center;
+}
+.wd{
+    width: 85vw;
+    height: 84vh;
+}
+.img img{
+    margin-left: 6vw;
+    margin-right: 1vw;
+}
+.img button{
+    border-radius: 10px;
+    height: 6vh;
+    width: 18vw;
+    color: white;
+    background-color: orange;
+}
